@@ -1,0 +1,33 @@
+Le Jeu de la Vie
+================
+
+Le jeu de la Vie, développé en Vala et SDL (et exclusivement en Français !)
+
+Auteur : Marien Fressinaud <dev@marienfressinaud.fr>
+Version : 1.0
+Date : 2012-06-05
+
+Dépendances
+===========
+vala
+sdl
+
+Compilation
+===========
+Un simple 'make' devrait faire l'affaire.
+'make test' permet de lancer un test du jeu
+'make clean' supprime l'exécutable
+
+Utilisation
+===========
+Lancer './jeu_de_la_vie -h' est une bonne idée afin de connaître les options de configuration du jeu
+Plus particulièrement './jeu_de_la_vie -c' pour connaître les touches utiles durant le jeu (ou alors lisez la partie suivante)
+
+Commandes
+=========
+  Souris	Le clic gauche donne la vie aux cellules... Le clic droit la leur reprend
+  Espace	Lance le jeu ou le met en pause
+  P		(Re)peuple le monde
+  T		Tue les cellules
+  N		Tue les cellules et nettoie les débris cellulaires
+  Q		Quitte le jeu
