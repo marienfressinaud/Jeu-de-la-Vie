@@ -181,6 +181,6 @@ public class MondeGraphique : Monde
 	 * Dessine le monde à l'écran
 	 */
 	public void dessiner () {
-		ecran.update_rect(0, 0, ecran.w, ecran.h);
+		ecran.update_rect (0, 0, ecran.w, ecran.h);
 	}
 }
